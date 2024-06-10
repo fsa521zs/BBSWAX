@@ -1,81 +1,92 @@
 // ============================================================
 // 晋级赛选手
 // ============================================================
-const db_forums = [
+const  db_forums = [
     {
-        title: "MCBBS",
-        url: "https://www.mcbbs.net",
-        state: "close",
-        createdAt: "2010/10/30",
-        closedAt: "2024/01/17",
-        updatedAt: "2024/06/05",
-        hasICP: "yes",
-        hasNetSec: "yes",
-        note: "直属B站的我的世界中文论坛。",
-        reference: []
-    },
+        标题：“MCBBS”，
+        网址：“https://www.mcbbs.net ”，
+        状态：“关闭”，
+        创建时间："2010/10/30"，
+        关闭时间: "2024/01/17" ,
+        更新时间："2024/06/05"，
+        hasICP：“是”，
+        hasNetSec：“是”，
+        注："直属B站的我的世界中文论坛。"，
+        参考：[    ]
+    }，
     {
-        title: "最MC",
-        url: "http://www.zuimc.com",
-        state: "up",
-        createdAt: "2013/04/18",
-        updatedAt: "2024/06/09",
-        hasICP: "yes",
-        hasNetSec: "yes",
-        note: "网站处于待出售状态，暂停新用户注册，用户活动基本停止。网站屏蔽了大量机房 IP，存在误伤。",
-        reference: []
-    },
+        标题：《最MC》,
+        网址：“http://www.zuimc.com ”，
+        状态：“up”，
+        创建时间："2013/04/18"，
+        更新时间："2024/06/09"，
+        hasICP：“是”，
+        hasNetSec：“是”，
+        注意："网站处于待出售状态，暂停新用户注册，用户活动基本停止。网站屏蔽了占用的机房 IP，存在误伤。"，
+        參考：[  ]
+    }，
     {
-        title: "网易我的世界论坛",
-        url: "https://mc.netease.com",
-        state: "up",
-        createdAt: "2016/09/20",
-        updatedAt: "2024/04/20",
-        hasICP: "yes",
-        hasNetSec: "yes",
-        note: "由网易运营的我的世界中国版论坛，内嵌于客户端中。目前已禁止客户端以外的用户发帖，且 180 天前的帖子不可见。网易的游戏论坛业务已迁移至网易大神，网易我的世界论坛已基本停止运营。",
-        reference: []
-    },
+        title: 《唯安侠MC论坛》
+        网址：“https://weianxq.com ”，
+        状态：“up”，
+        创建时间：“2024/ 03 / 3 ”，
+        更新时间: "2024/06/09" ,
+        hasICP: “是”，
+        hasNetSec: “是”，
+        注意：“大陆服务器,优质交流平台”，
+        參考：[  ]
+    }，
     {
-        title: "MineBBS",
-        url: "https://minebbs.com",
-        state: "up",
-        createdAt: "2018/03/16",
-        updatedAt: "2024/05/07",
-        hasICP: "yes",
-        hasNetSec: "no",
-        note: "综合性MC论坛，以基岩版服务端资源为主要特色，于今年二月初重启Java版，目前Java版服务端资源发展较为迅速。",
-        reference: [
+        title : "网易我的世界论坛" ,
+        网址：“https://mc.netease.com ”，
+        状态：“up”，
+        创建时间：
+        更新时间：
+        有ICP证:
+        hasNetSec：
+        注意：
+        参考：
+    }，
+    {
+        标题：
+        网址：
+        状态：
+        创建时间：
+        更新时间：
+        有ICP证:
+        hasNetSec：
+        注意：
+        参考：
             {
-                title: "[MineBBS]何为一个成熟的基岩版社区？",
-                url: "https://www.bilibili.com/video/BV1jr4y1u7sD/"
+                标题：“ [ MineBBS]何为一个资深论坛？" ,
+                网址：“https:
             }
         ]
-    },
+    }，
     {
-        title: "九域资源社区",
-        url: "https://bbs.mc9y.net",
-        state: "up",
-        createdAt: "2019/01/07",
-        updatedAt: "2024/04/20",
-        hasICP: "yes",
-        hasNetSec: "no",
-        note: "主营服务器插件。",
-        reference: []
-    },
+        title : "九域资源社区" ,
+        网址：“https://bbs.mc9y.net ”，
+        状态：“up”，
+        创建时间："2019/01/07"，
+        更新时间："2024/04/20"，
+        hasICP：“是”，
+        hasNetSec：“否”，
+        note : "主营服务器插件。" ,
+        参考：[    ]
+    }，
     {
-        title: "暮光方块论坛",
-        url: "https://bbs.tsfk.top",
-        state: "up",
-        createdAt: "2019/02/15",
-        updatedAt: "2024/04/20",
-        hasICP: "yes",
-        hasNetSec: "no",
-        note: "",
-        reference: []
-    },
+        书名：《暮光之城》
+        网址："https://bbs.tsfk.top" ,
+        状态："up" ,
+        创建时间："2019/02/15" ,
+        更新时间："2024/04/20" ,
+        有ICP证: "有" ,
+        hasNetSec："否" ,
+        备注：“”，
+        参考：[  ]
+    }，
     {
-        title: "像素点之家",
+        标题："像素点之家",
         url: "https://mcbar.club",
         state: "up",
         createdAt: "2019/07/14",
